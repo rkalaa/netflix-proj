@@ -109,7 +109,7 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "space.",
+        "AI-driven animation generator",
       technologies: [
         "ExpressJS",
         "Next.js",
@@ -117,7 +117,7 @@ export const DATA = {
         "Tailwind CSS",
         "FFMpeg",
       ],
-      image: "motionlogo.png",
+      image: "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/075/234/datas/medium.png",
       links: [
         {
           type: "Website",
@@ -137,7 +137,7 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "space",
+        "Optimized Youtube Clone",
       technologies: [
         "NodeJS",
         "Go",
@@ -146,7 +146,7 @@ export const DATA = {
         "Docker",
         "NextJS",
       ],
-      image: "",
+      image: "https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6-1200-80.jpg",
       links: [
         {
           type: "Source",
@@ -161,7 +161,7 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "space",
+        "Reneweable Energy Certificate Exchange Platform",
       technologies: [
         "Flask",
         "MongoDB",
@@ -169,7 +169,7 @@ export const DATA = {
         "AWS",
         "NextJS",
       ],
-      image: "",
+      image: "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/039/626/datas/medium.png", 
       links: [
         {
           type: "Source",
@@ -184,14 +184,14 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "space",
+        "Made from Scratch",
       technologies: [
         "Python",
-        "Bleak",
-        "Matplotlib",
         "Pandas",
+        "Numpy",
+        "Matplotlib",
       ],
-      image: "",
+      image: "https://static.vecteezy.com/system/resources/thumbnails/002/935/254/small/black-rectangular-labyrinth-game-for-kids-puzzle-for-children-maze-conundrum-flat-illustration-isolated-on-white-background-free-vector.jpg",
       links: [
         {
           type: "Source",
@@ -207,7 +207,7 @@ export const DATA = {
       dates: "October 2024",
       location: "University Park, PA",
       description:
-        "space",
+        "Platform for generating animations a user-inputted prompt.",
       image:
         "https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg",
       win: "2nd Place Winner",
@@ -235,7 +235,7 @@ export const DATA = {
       dates: "November 2024",
       location: "San Francisco, CA",
       description:
-        "space",
+        "Simulates personalized conversations for Alzheimer's patients using voice cloning and generative models to enhance emotional connection and memory recall.",
       image: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Seal_of_University_of_California%2C_Berkeley.svg",
       mlh: "https://devpost.com/software/dear",
       links: [
@@ -256,7 +256,7 @@ export const DATA = {
       dates: "September 2024",
       location: "Philadelphia, Pennsylvania",
       description:
-        "space",
+        "Sustainability-focused platform enabling users to trade, and buy Renewable Energy Certificates to reduce waste and promote eco-friendly living.",
       image: "https://storage.googleapis.com/admit-images/school-logos-med-school/university_of_pennsylvania.svg",
       links: [
         {
