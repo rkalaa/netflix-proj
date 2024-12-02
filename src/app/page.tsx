@@ -61,8 +61,7 @@ function Education() {
             logoUrl={education.logoUrl}
             altText={education.school}
             title={education.school}
-            subtitle={education.degree}
-          />
+            subtitle={education.degree} period={""}          />
         </BlurFade>
       ))}
     </section>
@@ -142,7 +141,6 @@ function Hackathons() {
               location={hackathon.location}
               dates={hackathon.dates}
               image={hackathon.image}
-              award={hackathon.win}
               links={hackathon.links}
             />
           </BlurFade>
