@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/personal-website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/personal-website/' : '',
+  // Remove basePath and assetPrefix
   images: {
-    unoptimized: true,
-  },
+    domains: [], // Add any image domains you need
+  }
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig
