@@ -117,7 +117,7 @@ export const DATA = {
         "Tailwind CSS",
         "FFMpeg",
       ],
-      image: "/aestheticaxis.png",
+      image: "",
       links: [
         {
           type: "Website",
@@ -146,7 +146,7 @@ export const DATA = {
         "Docker",
         "NextJS",
       ],
-      image: "/discordllm.png",
+      image: "",
       links: [
         {
           type: "Source",
@@ -169,7 +169,7 @@ export const DATA = {
         "AWS",
         "NextJS",
       ],
-      image: "/hwidinspector.png",
+      image: "",
       links: [
         {
           type: "Source",
@@ -191,7 +191,7 @@ export const DATA = {
         "Matplotlib",
         "Pandas",
       ],
-      image: "/rssicheck.png",
+      image: "",
       links: [
         {
           type: "Source",
