@@ -1,11 +1,14 @@
 import "./globals.css";
 import { Inter, Roboto_Slab, Poppins, Outfit } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
+
+Analytics({});
 
 const robotoSlab = Roboto_Slab({
   subsets: ["latin"],
