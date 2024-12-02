@@ -1,4 +1,4 @@
-# angusbailey-portfolio
+# Brij's Portfolio
 
 Personal portfolio website built with Next.js and TypeScript.
 

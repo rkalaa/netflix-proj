@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/angusbailey-portfolio/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/angusbailey-portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/personal-website/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/personal-website' : '',
   trailingSlash: true,
 };
 

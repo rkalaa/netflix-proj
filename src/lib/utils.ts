@@ -38,7 +38,7 @@ export function formatDate(date: string) {
 
 export const getImagePath = (path: string) => {
   // Add base path for GitHub Pages deployment
-  const basePath = '/angusbailey-portfolio';
+  const basePath = '/personal-website';
   
   // If path starts with http/https, return as is
   if (path.startsWith('http')) {

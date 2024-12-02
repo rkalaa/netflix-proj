@@ -1,21 +1,21 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+
 export const DATA = {
-  name: "Angus Bailey",
-  initials: "AB",
-  url: "https://angusbailey.com",
-  location: "Ottawa, ON",
-  locationLink: "https://www.google.com/maps/place/ottawa",
+  name: "Brij Kalakheti",
+  initials: "BK",
+  url: "space",
+  location: "Exton, PA",
   description:
-    "Computer Science student passionate about <u>full-stack development</u>, responsive web design, and building efficient, user-friendly applications.",
+    "Computer Science student passionate about <u>software engineering</u>, responsive web design, and building efficient, user-friendly applications.",
   summary:
-    "I'm a passionate 3rd-year Computer Science student at [Carleton University](https://carleton.ca/), with a lifelong love for technology and innovation. I blend academic excellence with practical experience in software development. My journey in programming began early with Lua scripting, evolving into a comprehensive skill set encompassing [full-stack web development](#skills), cloud computing, and AI integration. My [project portfolio](#projects) demonstrates proficiency in technologies such as React, Next.js, Node.js, and Python. I'm eager to contribute my [skills](#skills) to cutting-edge projects in the tech industry.",
-  avatarUrl: "/me.png",
+    "I'm a passionate Computer Science student at [Penn State University](https://www.psu.edu/), with a lifelong love for technology and innovation. I blend academic excellence with practical experience in software development. My journey in programming began early with C, evolving into a comprehensive skill set encompassing [software development](#skills), cloud computing, and AI integration. My [project portfolio](#projects) demonstrates proficiency in technologies such as Node.js, Python, Go, and TypeScript. I'm eager to contribute my [skills](#skills) to cutting-edge projects in the tech industry.",
+  avatarUrl: "/me3.png",
   skills: [
     "Python",
-    "Java",
-    "C++",
+    "Go",
+    "C#",
     "JavaScript",
     "TypeScript",
     "HTML/CSS",
@@ -27,7 +27,7 @@ export const DATA = {
     "Git",
     "Docker",
     "AWS",
-    "SQLite",
+    "MSSQL",
     "MongoDB",
   ],
   navbar: [
@@ -35,30 +35,30 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "AngusB@techie.com",
-    tel: "+13434223212",
+    email: "brk5407@psu.edu",
+    tel: "+14846391360",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/boshyxd",
+        url: "https://github.com/rkalaa",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/angus-bailey-793123317",
+        url: "https://www.linkedin.com/in/b-raj-k/",
         icon: Icons.linkedin,
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://www.youtube.com/@HaxorStrr",
-        icon: Icons.youtube,
+      X: {
+        name: "X",
+        url: "https://x.com/GenixCS",
+        icon: Icons.x,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "brk5407@psu.edu",
         icon: Icons.email,
         navbar: false,
       },
@@ -67,121 +67,124 @@ export const DATA = {
 
   education: [
     {
-      school: "Carleton University",
-      href: "https://carleton.ca",
-      degree: "Bachelor of Computer Science (BCS)",
-      logoUrl: "/carleton.png",
-      start: "2022",
-      end: "2027",
-      description: "Awarded entrance scholarship for academic excellence. Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Cloud Computing, Artificial Intelligence. Co-op Program: Summer 2025 semester.",
+      school: "The Pennsylvania State University",
+      href: "https://www.psu.edu/",
+      degree: "Bachelor of Science (BS)",
+      logoUrl: "https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg",
+      description: "Awarded entrance scholarship for academic excellence. Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Software Engineering, Cloud Computing, Artificial Intelligence.",
     },
   ],
 
   work: [
     {
-      company: "CompuFix",
-      href: "https://compufixkingston.com/",
+      company: "Cerebras Systems",
+      href: "https://cerebras.ai/",
       badges: [],
-      location: "Kingston, ON",
-      title: "Computer Repair Technician",
-      logoUrl: "/compufix.png",
-      start: "September 2022",
-      end: "September 2023",
+      location: "Sunnyvale, CA",
+      title: "Software Engineering Fellow",
+      logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cerebras_logo.svg/1200px-Cerebras_logo.svg.png",
+      start: "Sep 2024",
+      end: "Dec 2024",
       achievements: [
-        "Executed advanced hardware repairs and software re-installations, specializing in Windows operating systems",
-        "Developed and deployed Python automation scripts for system diagnostics and driver updates, improving repair efficiency by 20%",
-        "Designed and implemented a robust SQL database system to manage order backlogs and track parts inventory, streamlining the ordering process",
-        "Created a custom software tool for inventory management using C# and SQLite, enhancing parts tracking and ordering processes",
-        "Collaborated with the IT team to design and maintain an internal knowledge base using HTML and CSS, facilitating faster issue resolution",
+      ],
+    },
+    {
+      company: "Medcominds",
+      href: "https://www.medcominds.com/",
+      badges: [],
+      location: "Albany, NY",
+      title: "Software Engineering Intern",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArTkXMlZgAKtyEeoG8S3VAjwH2cwNeAbm8A&s",
+      start: "July 2024",
+      end: "Sep 2024",
+      achievements: [
       ],
     },
   ],
 
   projects: [
     {
-      title: "AestheticAxis",
-      href: "https://aestheticaxis.com",
+      title: "MotionMind",
+      href: "google.com",
       dates: "2024",
       active: true,
       description:
-        "A full-stack interactive quiz application using React and Next.js, implementing custom dark mode theming and achieving a perfect Lighthouse score for SEO and performance.",
+        "space.",
       technologies: [
-        "React",
+        "ExpressJS",
         "Next.js",
         "TypeScript",
-        "Chakra UI",
         "Tailwind CSS",
-        "Framer Motion",
+        "FFMpeg",
       ],
       image: "/aestheticaxis.png",
       links: [
         {
           type: "Website",
-          href: "https://boshyxd.github.io/aesthetic-axis/",
+          href: "google.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/boshyxd/AestheticAxis",
+          href: "https://github.com/rkalaa/motionmind",
           icon: <Icons.github className="size-3" />,
         },
       ],
     },
     {
-      title: "DiscordLLM",
-      href: "https://github.com/boshyxd/DiscordLLM",
+      title: "SmartTube",
+      href: "https://github.com/rkalaa/yt-clone",
       dates: "2024",
       active: true,
       description:
-        "A modular Discord bot using Python and Discord.py, integrating Ollama for local language model processing and implementing advanced slash commands for AI-driven conversations.",
+        "space",
       technologies: [
-        "Python",
-        "Discord.py",
-        "Ollama",
+        "NodeJS",
+        "Go",
+        "Firebase",
+        "Google Cloud Platform",
         "Docker",
-        "Pandas",
-        "Matplotlib",
-        "pytest",
+        "NextJS",
       ],
       image: "/discordllm.png",
       links: [
         {
           type: "Source",
-          href: "https://github.com/boshyxd/DiscordLLM",
+          href: "https://github.com/rkalaa/yt-clone",
           icon: <Icons.github className="size-3" />,
         },
       ],
     },
     {
-      title: "HWIDInspector",
-      href: "https://github.com/boshyxd/HWIDInspector",
+      title: "ecoXchange",
+      href: "https://github.com/rkalaa/ecoxchange",
       dates: "2024",
       active: true,
       description:
-        "A Python tool with PySide6 GUI for inspecting and modifying system Hardware ID (HWID) and related components. Features include random HWID generation, secure system information modification, and SQLite integration for efficient data management.",
+        "space",
       technologies: [
-        "Python",
-        "PySide6",
-        "WMI",
-        "SQLite",
-        "Bleak",
+        "Flask",
+        "MongoDB",
+        "Docker",
+        "AWS",
+        "NextJS",
       ],
       image: "/hwidinspector.png",
       links: [
         {
           type: "Source",
-          href: "https://github.com/boshyxd/HWIDInspector",
+          href: "https://github.com/rkalaa/ecoxchange",
           icon: <Icons.github className="size-3" />,
         },
       ],
     },
     {
-      title: "RSSICheck",
-      href: "https://github.com/boshyxd/RSSICheck",
+      title: "Reinforced Learning Maze",
+      href: "https://github.com/rkalaa/RL-Maze",
       dates: "2024",
       active: true,
       description:
-        "A Python-based tool using Bleak library to scan and classify RSSI of nearby Bluetooth devices in real-time. Utilizes Matplotlib and Pandas for data visualization and analysis, providing detailed reports on Bluetooth signal quality.",
+        "space",
       technologies: [
         "Python",
         "Bleak",
@@ -192,7 +195,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/boshyxd/RSSICheck",
+          href: "https://github.com/rkalaa/RL-Maze",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -200,65 +203,73 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "StartHacks I",
-      dates: "March 4th - 5th, 2017",
-      location: "Waterloo, Ontario",
+      title: "HackPSU",
+      dates: "October 2024",
+      location: "University Park, PA",
       description:
-        "Developed Recipic, a mobile app that uses ClarifAI image recognition to identify ingredients from photos and suggest recipes. Won 1st place for best pitch and hack.",
+        "space",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-      win: "1st Place Winner",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        "https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg",
+      win: "2nd Place Winner",
+      mlh: "https://devpost.com/software/motionmind",
       links: [
         {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/example/recipic-ionic",
+          title: "Devpost Submission",
+          icon: <Icons.devpost className="h-4 w-4" />,
+          href: "https://devpost.com/software/motionmind",
         },
-        {
-          title: "Source (Server)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/example/recipic-rails",
-        },
-      ],
-    },
-    {
-      title: "HackTheNorth 2023",
-      dates: "September 15th - 17th, 2023",
-      location: "Waterloo, Ontario",
-      description:
-        "Created EcoTrack, an AI-powered mobile app that helps users reduce their carbon footprint by providing personalized sustainability recommendations based on daily activities.",
-      image: "/hackathon-logo.png",
-      win: "Sustainability Innovation Award",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg",
-      links: [
         {
           title: "GitHub Repo",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/example/ecotrack",
+          href: "https://github.com/rkalaa/motionmind"
         },
         {
           title: "Demo",
           icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          href: "https://www.youtube.com/watch?v=AyuZZQGFBmw",
+        },
+        ]
+    },
+    {
+      title: "CalHacks 11.0",
+      dates: "November 2024",
+      location: "San Francisco, CA",
+      description:
+        "space",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Seal_of_University_of_California%2C_Berkeley.svg",
+      mlh: "https://devpost.com/software/dear",
+      links: [
+        {
+          title: "Devpost Submission",
+          icon: <Icons.devpost className="h-4 w-4" />,
+          href: "https://devpost.com/software/dear"
+        },
+        {
+          title: "GitHub Repo",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Dear-CalHacks/Dear-Backend",
         },
       ],
     },
     {
-      title: "CUHacking 2024",
-      dates: "January 26th - 28th, 2024",
-      location: "Ottawa, Ontario",
+      title: "PennApps 2024",
+      dates: "September 2024",
+      location: "Philadelphia, Pennsylvania",
       description:
-        "Developed HealthHub, a blockchain-based health data management system that allows secure sharing of medical records between patients and healthcare providers while ensuring data privacy and integrity.",
-      image: "/cuhacking-logo.png",
-      win: "Best Use of Blockchain Technology",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg",
+        "space",
+      image: "https://storage.googleapis.com/admit-images/school-logos-med-school/university_of_pennsylvania.svg",
       links: [
+        {
+          title: "Devpost Submission",
+          icon: <Icons.devpost className="h-4 w-4" />,
+          href: "https://devpost.com/software/ecoxchange",
+        },
         {
           title: "GitHub Repo",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/example/healthhub",
+          href: "https://github.com/rkalaa/ecoxchange",
         },
+        
       ],
     },
   ],
