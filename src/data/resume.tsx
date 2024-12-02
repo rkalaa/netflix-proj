@@ -58,9 +58,9 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "brk5407@psu.edu",
+        url: "mailto:brk5407@psu.edu",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -117,7 +117,7 @@ export const DATA = {
         "Tailwind CSS",
         "FFMpeg",
       ],
-      image: "",
+      image: "motionlogo.png",
       links: [
         {
           type: "Website",
