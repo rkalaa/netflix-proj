@@ -8,7 +8,6 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-Analytics({});
 
 const robotoSlab = Roboto_Slab({
   subsets: ["latin"],
@@ -47,6 +46,7 @@ export default function RootLayout({
         <div className="w-full max-w-[640px]">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   );
