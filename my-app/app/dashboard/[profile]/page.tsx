@@ -109,7 +109,7 @@ export default function Dashboard({ params }: { params: { profile: string } }) {
 
   return (
     <main className="min-h-screen pt-20 px-4 sm:px-6 md:px-8 pb-8 relative">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 capitalize tracking-tight">{profile}'s Dashboard</h1>
+      <h1 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 capitalize tracking-tight">{profile}&apos;s Dashboard</h1>
       <section className="mb-8 sm:mb-12">
         <h2 className="text-xl sm:text-2xl font-medium mb-4 tracking-tight">Movies</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4">

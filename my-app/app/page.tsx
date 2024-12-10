@@ -23,7 +23,7 @@ const profiles = [
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 relative">
-      <h1 className="text-5xl font-bold mb-12 tracking-tight">Who's watching?</h1>
+      <h1 className="text-5xl font-bold mb-12 tracking-tight">Who&apos;s watching?</h1>
       <div className="flex space-x-8">
         {profiles.map((profile) => (
           <Link href={`/dashboard/${profile.name.toLowerCase()}`} key={profile.name}>
