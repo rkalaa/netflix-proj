@@ -33,7 +33,7 @@ export default function ProfileCard({ name, image, prompt }: ProfileCardProps) {
           className="transition-all duration-200 object-cover"
         />
       </div>
-      <p className={`text-gray-300 ${isHovered ? 'text-white' : ''}`}>{name}</p>
+      <p className={`text-gray-300 ${isHovered ? 'text-white' : ''} text-lg mt-2 tracking-tight`}>{name}</p>
     </div>
   )
 }

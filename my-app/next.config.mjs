@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
+const nextConfig = {
+    images: {
+        domains: ['fast-flux-demo.vercel.app'],
+    }
+};
 export default nextConfig;
