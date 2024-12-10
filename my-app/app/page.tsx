@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import ProfileCard from '../components/ProfileCard'
 import { getImageUrl } from '../utils/image'
-import { DebugButton } from '../components/DebugButton'
 
 const profiles = [
   { 
@@ -36,7 +35,6 @@ export default function Home() {
           </Link>
         ))}
       </div>
-      <DebugButton />
     </main>
   )
 }

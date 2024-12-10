@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { getImageUrl } from '../utils/image'
-import { Play, Info } from 'lucide-react'
+import { Play } from 'lucide-react'
 
 interface ContentCardProps {
   title: string
@@ -38,10 +38,6 @@ export default function ContentCard({ title, image, prompt }: ContentCardProps) 
           <button className="flex items-center justify-center bg-white text-black px-2 py-1 rounded-md text-xs font-semibold hover:bg-opacity-80 transition-colors duration-200">
             <Play size={16} className="mr-1" />
             View
-          </button>
-          <button className="flex items-center justify-center bg-gray-500 bg-opacity-50 text-white px-2 py-1 rounded-md text-xs hover:bg-opacity-70 transition-colors duration-200">
-            <Info size={16} className="mr-1" />
-            More Info
           </button>
         </div>
       </div>

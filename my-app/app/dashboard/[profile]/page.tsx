@@ -1,6 +1,5 @@
 import ContentCard from '../../../components/ContentCard'
 import { getImageUrl } from '../../../utils/image'
-import { DebugButton } from '../../../components/DebugButton'
 import { notFound } from 'next/navigation'
 import { BackToHomeButton } from '../../../components/BackToHomeButton'
 
@@ -137,7 +136,7 @@ export default function Dashboard({ params }: { params: { profile: string } }) {
           ))}
         </div>
       </section>
-      <DebugButton />
+
       <BackToHomeButton />
     </main>
   )

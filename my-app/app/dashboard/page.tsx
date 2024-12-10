@@ -1,6 +1,6 @@
 import ContentCard from '../../components/ContentCard'
 import { getImageUrl } from '../../utils/image'
-import { DebugButton } from '../../components/DebugButton'
+
 
 const resumeSections = [
   { 
@@ -63,7 +63,6 @@ export default function Dashboard() {
             ))}
         </div>
       </section>
-      <DebugButton />
     </main>
   )
 }
