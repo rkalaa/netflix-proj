@@ -1,5 +1,6 @@
 import './globals.css'
 import { NetflixHeader } from '../components/NetflixHeader'
+import { Analytics } from '@vercel/analytics'
 
 export const metadata = {
   title: 'Genix Portfolio Website',
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body>
         <NetflixHeader />
         {children}
+        <Analytics />
       </body>
     </html>
   )
