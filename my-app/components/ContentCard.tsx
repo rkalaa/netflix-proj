@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { getImageUrl } from '../utils/image'
 import { Play } from 'lucide-react'
@@ -11,9 +11,13 @@ interface ContentCardProps {
   prompt: string
 }
 
-export default function ContentCard({ title, image, prompt }: ContentCardProps) {
-  const [isHovered, setIsHovered] = useState(false)
-  const [currentImage, setCurrentImage] = useState(image)
+export default function ContentCard({ title, prompt }: ContentCardProps) {
+  const [currentImage, setCurrentImage] = useState('')
+
+  // Ensure a new image is fetched on every page load
+  useEffect(() => {
+    setCurrentImage(getImageUrl(prompt) + `&t=${Date.now()}`)
+  }, [prompt])
 
   const regenerateImage = () => {
     setCurrentImage(getImageUrl(prompt) + `&t=${Date.now()}`)
@@ -22,8 +26,6 @@ export default function ContentCard({ title, image, prompt }: ContentCardProps) 
   return (
     <div
       className="relative w-full aspect-video bg-gray-800 rounded-md overflow-hidden cursor-pointer transition-all duration-200 ease-in-out group"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
     >
       <Image
         src={currentImage}
@@ -35,7 +37,10 @@ export default function ContentCard({ title, image, prompt }: ContentCardProps) 
       <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-200">
         <h3 className="text-base sm:text-lg font-medium mb-2 tracking-tight">{title}</h3>
         <div className="flex space-x-2">
-          <button className="flex items-center justify-center bg-white text-black px-2 py-1 rounded-md text-xs font-semibold hover:bg-opacity-80 transition-colors duration-200">
+          <button
+            onClick={regenerateImage}
+            className="flex items-center justify-center bg-white text-black px-2 py-1 rounded-md text-xs font-semibold hover:bg-opacity-80 transition-colors duration-200"
+          >
             <Play size={16} className="mr-1" />
             View
           </button>
@@ -44,4 +49,3 @@ export default function ContentCard({ title, image, prompt }: ContentCardProps) 
     </div>
   )
 }
-

@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
-import { getImageUrl } from '../utils/image'
+
 
 interface ProfileCardProps {
   name: string
@@ -10,13 +10,9 @@ interface ProfileCardProps {
   prompt: string
 }
 
-export default function ProfileCard({ name, image, prompt }: ProfileCardProps) {
+export default function ProfileCard({ name, image }: ProfileCardProps) {
   const [isHovered, setIsHovered] = useState(false)
-  const [currentImage, setCurrentImage] = useState(image)
-
-  const regenerateImage = () => {
-    setCurrentImage(getImageUrl(prompt) + `&t=${Date.now()}`)
-  }
+  const currentImage = useState(image)
 
   return (
     <div
@@ -26,7 +22,7 @@ export default function ProfileCard({ name, image, prompt }: ProfileCardProps) {
     >
       <div className={`w-32 h-32 rounded-md overflow-hidden mb-4 ${isHovered ? 'ring-4 ring-white' : ''}`}>
         <Image
-          src={currentImage}
+          src={currentImage[0]}
           alt={name}
           width={128}
           height={128}
