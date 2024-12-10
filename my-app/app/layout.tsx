@@ -1,6 +1,6 @@
 import './globals.css'
 import { NetflixHeader } from '../components/NetflixHeader'
-import { Analytics } from '@vercel/analytics'
+import Analytics from '@vercel/analytics'
 
 export const metadata = {
   title: 'Genix Portfolio Website',
